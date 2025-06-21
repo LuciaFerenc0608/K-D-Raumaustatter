@@ -3,6 +3,8 @@
 
  
  .contact-info {
+    width: 70%;
+    height: auto;
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
@@ -10,25 +12,27 @@
     background-color: colors.$primary;
     padding: 20px;
     border-radius: basic.$spacer;
-    margin: 40px;
+    margin:0 auto ;
      }
 .address{
-    width:50%;
+    width:60%;
     margin: basic.$spacer;
     font-weight: 400;
    border-radius:20px;
    background-color:colors.$color-secundary;
+  
     p{
-        font-size: 20px;
+        font-size: 16px;
         margin: basic.$spacer;
     }
   
 }
 .social-media{
-    width:70%;
+    width:80%;
     background-color: colors.$color-secundary;
     border-radius: basic.$spacer; 
     margin-top:basic.$spacer;
+    padding:5px;
 }
    .social-media ul {
       list-style: none;

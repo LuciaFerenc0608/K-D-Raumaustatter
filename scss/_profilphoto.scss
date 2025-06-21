@@ -2,34 +2,62 @@
 @use 'basic';
 
 
-.inhaber{
-    display: block;
-    width:100%;
-    height: 100%;
-    object-fit: cover;
-    margin: basic.$spacer;
-    .hintergrund{
-        width:80%;
-        height:80%;
-        object-fit: cover;
-        margin:basic.$spacer;
-        text-align:center;
-    }
-    }
-    .firmaleistungen{
+.firmaleistungen{
+    width:80%;
     text-align: center;
     background-color: colors.$primary;
-    margin: basic.$spacer;
+    margin:0 auto;
+    padding:20px;
+    border-radius: basic.$spacer;
+    margin-bottom:5px;
+    
+
+}
+.inhaber{
+    
+    width:100%;
+    height: auto;
+    text-align: center;
+    object-fit: cover;
+    margin: 0 auto;
+    }
+    .hintergrund{
+        display:block;
+        width:80%;
+        height:auto;
+        object-fit: cover;
+        text-align:center;
+        margin:0 auto;
+        padding-left:20px;
+       
+        
+   
+    }
+    .firmaleistungen1{
+        width:100%;
+    text-align: center;
+    background-color: colors.$primary;
+    margin: 0 auto ;
     padding:40px;
     border-radius: basic.$spacer;
-    margin:40px;
+    margin-top:5px;
+
     }
+
+    
+    .foto1{
+        width:30%;
+        border-radius: 50%;
+    } 
+
+
     .foto1 img{
         display:block;
         margin: auto;
         
-        width:30%;
-        border-radius: 50%;
+        width: 100%;
+        height: auto;
+        
     }
      /*.foto2{
         width:50%;
