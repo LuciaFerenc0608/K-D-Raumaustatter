@@ -134,9 +134,9 @@ header {
 }
 
 .address {
-  width: 60%;
+  width: 65%;
   margin: 20px;
-  font-weight: 400;
+  font-weight: 300;
   border-radius: 20px;
   background-color: rgb(237, 237, 208);
 }
