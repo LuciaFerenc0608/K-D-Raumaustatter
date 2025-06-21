@@ -1,0 +1,43 @@
+@use 'colors';
+@use 'basic';
+
+
+.inhaber{
+    display: block;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    margin: basic.$spacer;
+    .hintergrund{
+        width:80%;
+        height:80%;
+        object-fit: cover;
+        margin:basic.$spacer;
+        text-align:center;
+    }
+    }
+    .firmaleistungen{
+    text-align: center;
+    background-color: colors.$primary;
+    margin: basic.$spacer;
+    padding:40px;
+    border-radius: basic.$spacer;
+    margin:40px;
+    }
+    .foto1 img{
+        display:block;
+        margin: auto;
+        
+        width:30%;
+        border-radius: 50%;
+    }
+     /*.foto2{
+        width:50%;
+        border-radius:100%;
+        position:absolute;
+        left: 400px;
+        top:20%;
+     }   */
+
+
+

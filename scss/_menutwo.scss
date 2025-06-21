@@ -1,0 +1,13 @@
+@use 'colors';
+@use 'basic';
+.menutwo{
+    margin:0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: basic.$spacer;
+}
+.menutwo li{
+    list-style: none;
+}

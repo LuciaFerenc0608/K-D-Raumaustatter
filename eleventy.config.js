@@ -4,6 +4,8 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("images");
   // Zkopírovat složku css/ to _site/css/
   eleventyConfig.addPassthroughCopy("css");
+// Zkopírovat složku glide.min.js/ to _site/glide.min.js/
+  eleventyConfig.addPassthroughCopy("glide.min.js");
 }
 
 export const config = {

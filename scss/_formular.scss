@@ -1,0 +1,41 @@
+@use 'colors';
+@use 'basic';
+
+
+.contact  {
+	color: colors.$primary;
+	margin: basic.$spacer;
+}
+
+
+
+.contact__item {
+    margin:40px;
+
+
+}
+
+.form-field {
+margin-bottom: basic.$spacer;
+}
+
+.form-field label {
+	display: block;
+	color: colors.$primary;
+	font-size: 15px;
+	margin-bottom:10px;
+}
+
+.form-field :is(input, textarea, select) {
+	width: 100%;
+	padding: 10px;
+    font-size: 16px;
+	border: 1px solid colors.$primary;
+	border-radius: 4px;
+}
+
+.required:after {
+	content: "*";
+	color: red;
+	margin-left: 4px;
+}

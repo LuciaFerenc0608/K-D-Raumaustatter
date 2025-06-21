@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "Lucia Ferenc",
   "scripts": {
+    "sass": "node-sass scss/style.scss -o _site/css",
     "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve"
   },

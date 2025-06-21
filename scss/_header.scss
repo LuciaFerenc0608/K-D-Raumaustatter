@@ -1,0 +1,30 @@
+ @use 'colors';
+@use 'basic';
+
+ header{
+    text-align: center;
+    background-color: black;
+    padding-bottom:basic.$spacer;
+    margin-bottom:30px;
+}
+   .phone-number{
+    position:absolute;
+    top:10px;
+    right:20px;
+   
+    margin:10px;
+   
+       a{
+        text-decoration:none;
+         background-color:colors.$color-secundary;
+         border-radius:20px;
+         border: 2px solid colors.$primary;
+         color:black;
+         margin:5px;
+        }
+   }
+   .logo{
+    width:60%;
+    margin-top: 40px;
+    text-align: center;
+}

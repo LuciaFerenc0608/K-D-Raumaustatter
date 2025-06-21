@@ -1,0 +1,66 @@
+@use 'colors';
+@use 'basic';
+
+ 
+ .contact-info {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: colors.$primary;
+    padding: 20px;
+    border-radius: basic.$spacer;
+    margin: 40px;
+     }
+.address{
+    width:50%;
+    margin: basic.$spacer;
+    font-weight: 400;
+   border-radius:20px;
+   background-color:colors.$color-secundary;
+    p{
+        font-size: 20px;
+        margin: basic.$spacer;
+    }
+  
+}
+.social-media{
+    width:70%;
+    background-color: colors.$color-secundary;
+    border-radius: basic.$spacer; 
+    margin-top:basic.$spacer;
+}
+   .social-media ul {
+      list-style: none;
+      text-decoration: none;
+        color:colors.$primary;
+        font-size: 20px;
+        margin-right: basic.$spacer;
+}
+.social-media a{
+    color:colors.$primary;
+    font-size:20px;
+    text-decoration: none;
+}
+
+.numbermail{
+    width:80%;
+    margin: basic.$spacer;
+    font-weight: 400;
+    text-align: center;
+    background-color: colors.$color-secundary;
+    border-radius:20px;
+    margin-bottom:30px;
+   
+       a{
+        color:colors.$primary;
+        text-decoration: none;
+        font-size: 20px;
+        background-color: colors.$color-secundary;
+        }
+       strong {
+        color:colors.$primary;
+       }
+}
+
+/*kontakthtml*/

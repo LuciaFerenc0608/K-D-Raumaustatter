@@ -1,0 +1,46 @@
+@use 'colors';
+@use 'basic';
+
+.menu{
+    list-style: none;
+     }
+    .menu li{
+    text-align: center;
+    margin-right: basic.$spacer;
+    
+    }
+
+.menu a {
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    color:colors.$primary;
+    font-size: 18px;
+    font-family: basic.$font-special;
+    font-weight: 600;
+    background-color:black;
+    padding:basic.$spacer;
+    list-style-type:none;
+    border-radius:basic.$spacer ;
+    border:2px solid colors.$primary;
+  }
+      .menu a:hover{
+    background-color: colors.$color-secundary;
+    color:black;
+    margin:basic.$spacer;
+    border-radius: basic.$spacer;
+    border:2px solid colors.$primary;
+}
+
+
+    
+
+
+    
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+@use 'colors';
+@use 'basic';
+
+footer{
+    background-color: black;
+    color:colors.$primary;
+    text-align: center;
+ padding-top:10px;
+ padding-bottom: basic.$spacer;
+font-size: 18px;
+}
