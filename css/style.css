@@ -139,6 +139,7 @@ header {
   font-weight: 300;
   border-radius: 20px;
   background-color: rgb(237, 237, 208);
+  padding: 3px;
 }
 .address p {
   font-size: 16px;
