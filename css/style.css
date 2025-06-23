@@ -363,4 +363,10 @@ footer {
      object-fit: cover;
   text-align: center;
   background-color: rgb(255, 158, 27);
+}
+
+.glide__buletts {
+  position: absolute;
+  top: 2 em;
+  left: 50%;
 }/*# sourceMappingURL=style.css.map */
