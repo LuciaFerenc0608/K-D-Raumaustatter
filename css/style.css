@@ -103,7 +103,8 @@ header {
 
 .glide__buletts {
   position: absolute;
-  top: 20px;
+  z-index: 2;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -370,7 +371,8 @@ footer {
   }
   .glide__buletts {
     position: absolute;
-    top: 20px;
+    z-index: 1;
+    top: 1em;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
