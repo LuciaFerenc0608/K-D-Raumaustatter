@@ -1,7 +1,7 @@
 @use 'colors';
 @use 'basic';
 .menutwo{
-    margin:0;
+    margin:0 auto;
     list-style: none;
     display: flex;
     justify-content: center;
@@ -10,4 +10,8 @@
 }
 .menutwo li{
     list-style: none;
+    text-align: center;
+}
+.menutwo ul{
+    padding:0;
 }

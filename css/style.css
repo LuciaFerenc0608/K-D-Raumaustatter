@@ -184,7 +184,7 @@ header {
 
 /*kontakthtml*/
 .menutwo {
-  margin: 0;
+  margin: 0 auto;
   list-style: none;
   display: flex;
   justify-content: center;
@@ -194,6 +194,11 @@ header {
 
 .menutwo li {
   list-style: none;
+  text-align: center;
+}
+
+.menutwo ul {
+  padding: 0;
 }
 
 .firmaleistungen {
@@ -365,7 +370,10 @@ footer {
   }
   .glide__buletts {
     position: absolute;
-    top: 2 em;
+    top: 20px;
     left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
