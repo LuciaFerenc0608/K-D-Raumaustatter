@@ -20,6 +20,7 @@
     text-align: center;
     object-fit: cover;
     margin: 0 auto;
+   
     }
     .hintergrund{
         display:block;
@@ -28,44 +29,35 @@
         object-fit: cover;
         text-align:center;
         margin:0 auto;
+        border-radius: basic.$spacer;
+        margin-bottom:5px;
+        margin-top:5px;
+
         
        
         
    
     }
     .firmaleistungen1{
-        width:100%;
-    text-align: center;
-    background-color: colors.$primary;
+        display:flex;
+        text-align: center;
+    justify-content: space-between;
+    gap:10px;
+    width:100%;
+    background-color:colors.$primary;
     margin: 0 auto ;
-    padding:40px;
     border-radius: basic.$spacer;
     margin-top:5px;
+
 
     }
 
     
-    .foto1{
-        width:30%;
-        border-radius: 50%;
-    } 
-
-
-    .foto1 img{
-        display:block;
-        margin: auto;
-        
-        width: 100%;
-        height: auto;
+    .kevin , .david {
+        background-color:colors.$primary;
+        text-align: center;
+        margin:0 auto;
+        padding:5px;
+        border-radius: basic.$spacer;
         
     }
-     /*.foto2{
-        width:50%;
-        border-radius:100%;
-        position:absolute;
-        left: 400px;
-        top:20%;
-     }   */
-
-
-

@@ -69,15 +69,16 @@
    
   }
   
-.glide__buletts{
+/*
+je to dane fix v glide.theme.css   neda sa to lahko prestavit .glide__buletts{
     position: absolute;
-    z-index:1;
+    z-index:2;
     top:1em;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     gap: 10px;
-}
+}*/
 
  }
 
