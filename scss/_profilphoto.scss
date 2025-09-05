@@ -13,7 +13,8 @@
     margin:0 auto;
     padding:20px;
     border-radius: basic.$spacer;
-    margin-bottom:5px;
+    margin-bottom:10px;
+    box-shadow: gainsboro 0px 1px 7px 1px;
     
 
 }
@@ -24,6 +25,7 @@
     text-align: center;
     object-fit: cover;
     margin: 0 auto;
+    margin-top:5px;
    
     }
     .hintergrund{
@@ -57,7 +59,7 @@
     margin: 0 auto ;
     border-radius: basic.$spacer;
     margin-top:5px;
-
+    box-shadow: gainsboro 0px 1px 7px 1px;
 
     }
 
@@ -69,4 +71,8 @@
         padding:5px;
         border-radius: basic.$spacer;
         
+    }
+
+    .boxkevindavid{
+        display:none;
     }
