@@ -212,9 +212,12 @@ header {
 }
 
 .firmaleistungen {
+  background-image: url("/images/musterneu.png");
+  background-size: 100%;
+  background-repeat: no repeat;
+  background-position: center;
   width: 80%;
   text-align: center;
-  background-color: white;
   margin: 0 auto;
   padding: 20px;
   border-radius: 20px;
@@ -244,6 +247,10 @@ header {
 }
 
 .firmaleistungen1 {
+  background-image: url("/images/musterneu.png");
+  background-size: 40%;
+  background-repeat: no repeat;
+  background-position: center;
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -256,7 +263,6 @@ header {
 }
 
 .kevin, .david {
-  background-color: white;
   text-align: center;
   margin: 0 auto;
   padding: 5px;

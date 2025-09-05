@@ -3,9 +3,13 @@
 
 
 .firmaleistungen{
+    background-image: url('/images/musterneu.png');
+    background-size: 100%;
+    background-repeat: no repeat;
+    background-position: center;
+    
     width:80%;
     text-align: center;
-    background-color: colors.$primary;
     margin:0 auto;
     padding:20px;
     border-radius: basic.$spacer;
@@ -39,6 +43,11 @@
    
     }
     .firmaleistungen1{
+     background-image: url('/images/musterneu.png');
+     background-size: 40%;
+     background-repeat: no repeat;
+     background-position: center;
+
         display:flex;
         text-align: center;
     justify-content: space-between;
@@ -54,7 +63,7 @@
 
     
     .kevin , .david {
-        background-color:colors.$primary;
+        
         text-align: center;
         margin:0 auto;
         padding:5px;
