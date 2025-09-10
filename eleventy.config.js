@@ -6,6 +6,16 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
 // Zkopírovat složku glide.min.js/ to _site/glide.min.js/
   eleventyConfig.addPassthroughCopy("glide.min.js");
+  // Zkopírovat složku icons/ to _site/icons/
+  eleventyConfig.addPassthroughCopy("icons");
+
+  return {
+    dir: {
+      input: ".", // výchozí složka pro vstupní soubory
+      includes: "_includes", // složka pro šablony
+      output: "_site", // výstupní složka
+    },
+  };
 }
 
 export const config = {
