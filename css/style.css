@@ -176,6 +176,7 @@ header {
   color: white;
   font-size: 20px;
   margin-right: 20px;
+  text-align: center;
 }
 
 .social-media a {
@@ -223,10 +224,7 @@ header {
 }
 
 .firmaleistungen {
-  background-image: url("/images/musterneu1.png");
-  background-size: 100%;
-  background-repeat: no repeat;
-  background-position: center;
+  background-color: white;
   width: 80%;
   text-align: center;
   margin: 0 auto;
@@ -255,15 +253,13 @@ header {
   text-align: center;
   margin: 0 auto;
   border-radius: 20px;
-  margin-bottom: 5px;
-  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  box-shadow: gainsboro 0px 1px 7px 1px;
 }
 
 .firmaleistungen1 {
-  background-image: url("/images/musterneu1.png");
-  background-size: 40%;
-  background-repeat: no repeat;
-  background-position: center;
+  background-color: white;
   display: flex;
   text-align: center;
   justify-content: space-between;
@@ -277,14 +273,25 @@ header {
 }
 
 .kevin, .david {
+  width: 90%;
   text-align: center;
   margin: 0 auto;
   padding: 5px;
   border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.boxkevindavid {
-  display: none;
+.boxtext {
+  width: 70%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: gainsboro 0px 1px 7px 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 footer {
@@ -393,40 +400,6 @@ footer {
   .glide {
     width: 100%;
     height: 100%;
-  }
-  .inhaber {
-    display: none;
-  }
-  .boxkevindavid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 100%;
-    border-radius: 20px;
-    padding: 20px;
-  }
-  .kevin {
-    width: 30%;
-    height: auto;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 20px;
-  }
-  .david {
-    width: 29%;
-    height: auto;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 20px;
-  }
-  .boxtext {
-    text-align: center;
-    margin: 0 auto;
-    padding: 5px;
-    border-radius: 20px;
-    color: white;
-    box-shadow: gainsboro 0px 1px 7px 1px;
   }
   .glide__slide img {
     max-width: 100%;

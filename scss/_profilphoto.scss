@@ -3,11 +3,8 @@
 
 
 .firmaleistungen{
-    background-image: url('/images/musterneu1.png');
-    background-size: 100%;
-    background-repeat: no repeat;
-    background-position: center;
-    
+    background-color: colors.$primary;
+
     width:80%;
     text-align: center;
     margin:0 auto;
@@ -36,8 +33,9 @@
         text-align:center;
         margin:0 auto;
         border-radius: basic.$spacer;
-        margin-bottom:5px;
-        margin-top:5px;
+        margin-bottom:10px;
+        margin-top:10px;
+        box-shadow: gainsboro 0px 1px 7px 1px;
 
         
        
@@ -45,10 +43,7 @@
    
     }
     .firmaleistungen1{
-     background-image: url('/images/musterneu1.png');
-     background-size: 40%;
-     background-repeat: no repeat;
-     background-position: center;
+     background-color: colors.$primary;
 
         display:flex;
         text-align: center;
@@ -65,15 +60,25 @@
 
     
     .kevin , .david {
-        
+        width:90%;
         text-align: center;
         margin:0 auto;
         padding:5px;
         border-radius: basic.$spacer;
+        margin-top: 10px;
+        margin-bottom:10px;
         
         
     }
       
-    .boxkevindavid{
-        display:none;
-    }
+         .boxtext{
+        width:70%;
+        text-align: center;
+        margin:0 auto;
+        padding:5px;
+        border-radius: basic.$spacer;
+        color:white;
+        box-shadow: gainsboro 0px 1px 7px 1px;
+        margin-top: 10px;
+        margin-bottom:10px;;
+     }
