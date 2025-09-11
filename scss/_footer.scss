@@ -5,7 +5,42 @@ footer{
     background-color: black;
     color:colors.$primary;
     text-align: center;
- padding-top:10px;
+  margin-top: 10px;;
+  padding-top: basic.$spacer;
  padding-bottom: basic.$spacer;
 font-size: 18px;
+}
+
+.footer-menu{
+    list-style: none;
+   padding-right: 10px;
+    margin: 0 auto;
+    
+     }
+    .footer-menu li{
+    text-align: center;
+    margin-right: basic.$spacer;
+    
+    }
+
+.footer-menu a {
+    text-align: center;
+    display:block;
+    text-decoration: none;
+    color:colors.$primary;
+    font-size: 16px;
+    font-family: basic.$font-special;
+    font-weight: 600;
+    background-color:black;
+    padding:basic.$spacer;
+    list-style-type:none;
+    border-radius:basic.$spacer ;
+    border:2px solid colors.$primary;
+  }
+      .footer-menu a:hover{
+    background-color: colors.$color-secundary;
+    color:black;
+    margin:basic.$spacer;
+    border-radius: basic.$spacer;
+    border:2px solid colors.$primary;
 }
