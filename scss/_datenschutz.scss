@@ -1,0 +1,20 @@
+@use 'colors';
+@use 'basic';
+
+.datenschutzsettings{
+    color: colors.$primary;
+    text-align: left;
+    padding:20px;
+    width: 80%;
+    margin:0 auto;
+    box-shadow:gainsboro 0px 1px 7px 1px;
+    border-radius: basic.$spacer;
+    margin-bottom: basic.$spacer  ;
+}
+.dazenschutzsettings h3{
+    margin-top: basic.$spacer;
+    margin-bottom: basic.$spacer;
+    font-weight: 500;
+    color:antiquewhite;
+    
+}

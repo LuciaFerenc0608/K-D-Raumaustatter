@@ -365,6 +365,42 @@ footer {
   margin: 40px;
 }
 
+.impressumsettings {
+  color: white;
+  text-align: left;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: gainsboro 0px 1px 7px 1px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.impressumsettings h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: antiquewhite;
+}
+
+.datenschutzsettings {
+  color: white;
+  text-align: left;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: gainsboro 0px 1px 7px 1px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.dazenschutzsettings h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: antiquewhite;
+}
+
 @media screen and (min-width: 600px) {
   .container {
     display: grid;
