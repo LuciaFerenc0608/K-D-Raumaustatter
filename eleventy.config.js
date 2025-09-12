@@ -8,6 +8,8 @@ export default async function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("glide.min.js");
   // Zkopírovat složku icons/ to _site/icons/
   eleventyConfig.addPassthroughCopy("icons");
+ // Zkopirovat slozku cookiebanner/ to _site/cookiebanner/
+  eleventyConfig.addPassthroughCopy("cookiebanner");
 
   return {
     dir: {
