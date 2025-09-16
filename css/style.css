@@ -444,6 +444,7 @@ header {
 
 .menu {
   list-style: none;
+  padding-left: 10px;
   margin: 0 auto;
 }
 
@@ -638,7 +639,7 @@ header {
   text-align: center;
   justify-content: space-between;
   gap: 10px;
-  width: 100%;
+  width: 90%;
   background-color: white;
   margin: 0 auto;
   border-radius: 20px;
@@ -669,7 +670,7 @@ header {
   margin-bottom: 10px;
 }
 
-footer {
+.footer {
   background-color: black;
   color: white;
   text-align: center;
@@ -681,6 +682,7 @@ footer {
 
 .footer-menu {
   list-style: none;
+  padding-left: 10px;
   margin: 0 auto;
 }
 

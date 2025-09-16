@@ -1,7 +1,7 @@
 @use 'colors';
 @use 'basic';
 
-footer{
+.footer{
     background-color: black;
     color:colors.$primary;
     text-align: center;
@@ -13,7 +13,7 @@ font-size: 18px;
 
 .footer-menu{
     list-style: none;
-   
+     padding-left: 10px;
     margin: 0 auto;
     
      }
