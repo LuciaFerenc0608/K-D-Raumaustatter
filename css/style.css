@@ -808,7 +808,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.dazenschutzsettings h3 {
+.dazenschutzsettings h3, h5 {
   margin-top: 20px;
   margin-bottom: 20px;
   font-weight: 500;
