@@ -450,6 +450,7 @@ header {
   list-style: none;
   padding-left: 10px;
   margin: 0 auto;
+  width: 90%;
 }
 
 .menu li {
@@ -473,6 +474,42 @@ header {
 }
 
 .menu a:hover {
+  background-color: grey;
+  color: black;
+  margin: 20px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.mobile-menu {
+  width: 90%;
+  list-style: none;
+  padding-left: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.mobile-menu li {
+  text-align: center;
+  margin-right: 20px;
+}
+
+.mobile-menu a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-family: "Libre Baskerville, serif; sans-serif ";
+  font-weight: 600;
+  background-color: black;
+  padding: 20px;
+  list-style-type: none;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.mobile-menu a:hover {
   background-color: grey;
   color: black;
   margin: 20px;
@@ -688,6 +725,7 @@ footer {
   list-style: none;
   padding-left: 10px;
   margin: 0 auto;
+  width: 90%;
 }
 
 .footer-menu li {
